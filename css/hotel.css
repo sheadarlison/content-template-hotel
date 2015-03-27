@@ -1,0 +1,199 @@
+html, body {
+	width:100vw;
+	height:100vh;
+	margin: 0px;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color:white;
+	z-index: -1;
+}
+hr { display: block; 
+	height: 10px;
+    border: 0; 
+    border-top: 0.25vw solid #B7985B;
+    margin: 0.3vw; 
+    padding: 0; }
+
+
+/* left side */
+#left-image-bottom {
+	position: absolute; 
+	left:0; 
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/9F18Q3V9O8.jpg); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index:0;
+	-webkit-animation-duration: 40s;
+    -webkit-animation-name: pulse;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	 /* Hey browser, use your GPU */
+   	-webkit-transform: translate3d(0, 0, 0);
+}
+
+#gradient-container {
+	position: absolute;
+	left:0; 
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	z-index:0;
+}
+
+#border-container {
+	position: absolute;
+	margin: 0 auto;
+	right: 2.5vw;
+	left:2.5vw; 
+	bottom: 5vh;
+	width: 95vw;
+	height: 90vh;
+	background: rgba(0, 0, 0, 0);
+	border:0.25vw solid #7D683E;
+	z-index:0;
+}
+
+
+/*right side container*/
+
+
+/* first slide */
+#first-container {
+	position:absolute;
+	margin: 0 auto;
+	width:35vw;
+	height:50vh;
+	top:25vh;
+	left:25vw;
+	right:25vw;
+}
+
+#first-content {
+	position: absolute;
+	left:0;
+	top:0;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: slide1;
+	-webkit-animation-iteration-count: infinite;
+	text-align: center !important;
+
+}
+
+/* Second slide */
+#second-container{
+	position:absolute;
+	margin: 0 auto;
+	width:35vw;
+	height:50vh;
+	top:25vh;
+	left:25vw;
+	right:25vw;
+}
+
+#second-content {
+	position: absolute;
+	left:0;
+	top:0;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: slide2;
+	-webkit-animation-iteration-count: infinite;
+	text-align: center !important;
+}
+
+
+/* third slide */
+#third-container{
+	position:absolute;
+	margin: 0 auto;
+	width:35vw;
+	height:50vh;
+	top:25vh;
+	left:25vw;
+	right:25vw;
+}
+
+#third-content {
+	position: absolute;
+	left:0;
+	top:0;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: slide3;
+	-webkit-animation-iteration-count: infinite;
+	text-align: center !important;
+}
+
+
+
+
+/* Global Classes */
+.header-text {
+	font-family: 'times new roman', serif;
+	font-size: 1.5vw;
+	color: #ffffff;
+	line-height: 2.5vw;
+	word-wrap:break-word;
+	text-align: center !important;
+	
+}
+
+.title {
+	font-size: 3vw;
+}
+
+.reservation {
+	font-family: 'times new roman', serif;
+	font-size: 1.5vw;
+	color: #B7985B;
+	line-height: 2.5vw;
+	word-wrap:break-word;
+	text-align: center !important;
+	text-decoration: underline;
+}
+
+	
+/* Footer Icons */
+#github {
+	 width:50%;
+	 height:4vh;
+	 left:10%;
+	 top:90%;
+	 z-index:4;
+	 margin-left:-1%;
+	 position:absolute;
+	 z-index:4;
+}
+
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:3.6vh;
+	opacity:.5;
+	z-index:4;
+}
+
+#rise {
+	opacity:.5;
+	width:5%;
+	height:4vh;
+	left:5%;
+	top:90%;
+	z-index:5;
+	margin-left:-1%;
+	position:absolute;
+	z-index:5;
+}
+
+#risebtn {
+    width:auto; 
+    height:100%;   
+}
