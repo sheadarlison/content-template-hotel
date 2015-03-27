@@ -27,17 +27,80 @@ hr { display: block;
 	bottom: 0;
 	width: 100vw;
 	height: 100vh;
-	background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/9F18Q3V9O8.jpg); 
+	
+	
+}
+
+#bottom-image-1 {
+	position: absolute; 
+	left:0; 
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/904EAD50B0.jpg); 
+	z-index:0;
 	background-size: cover;
 	background-repeat: no-repeat;
-	z-index:0;
+	/*
 	-webkit-animation-duration: 40s;
     -webkit-animation-name: pulse;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
-	 /* Hey browser, use your GPU */
+	  Hey browser, use your GPU */
    	-webkit-transform: translate3d(0, 0, 0);
+   		-webkit-animation-duration: 30s;
+	-webkit-animation-name: slide1;
+	-webkit-animation-iteration-count: infinite;
+	text-align: center !important;
 }
+
+#bottom-image-2 {
+	position: absolute; 
+	left:0; 
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/1FDAA51CC0.jpg); 
+	z-index:0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	 /* 
+	-webkit-animation-duration: 40s;
+    -webkit-animation-name: pulse;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	Hey browser, use your GPU */
+   	-webkit-transform: translate3d(0, 0, 0);
+   		-webkit-animation-duration: 30s;
+	-webkit-animation-name: slide2;
+	-webkit-animation-iteration-count: infinite;
+	text-align: center !important;
+}
+#bottom-image-3 {
+	position: absolute; 
+	left:0; 
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	background: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/1TEFEGXBRD.jpg); 
+	z-index:0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	 /* 
+	-webkit-animation-duration: 40s;
+    -webkit-animation-name: pulse;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	Hey browser, use your GPU */
+   	-webkit-transform: translate3d(0, 0, 0);
+   		-webkit-animation-duration: 30s;
+	-webkit-animation-name: slide3;
+	-webkit-animation-iteration-count: infinite;
+	text-align: center !important;
+}
+
+
+
 
 #gradient-container {
 	position: absolute;
@@ -81,7 +144,7 @@ hr { display: block;
 	position: absolute;
 	left:0;
 	top:0;
-	-webkit-animation-duration: 20s;
+	-webkit-animation-duration: 30s;
 	-webkit-animation-name: slide1;
 	-webkit-animation-iteration-count: infinite;
 	text-align: center !important;
@@ -103,7 +166,7 @@ hr { display: block;
 	position: absolute;
 	left:0;
 	top:0;
-	-webkit-animation-duration: 20s;
+	-webkit-animation-duration: 30s;
 	-webkit-animation-name: slide2;
 	-webkit-animation-iteration-count: infinite;
 	text-align: center !important;
@@ -125,7 +188,7 @@ hr { display: block;
 	position: absolute;
 	left:0;
 	top:0;
-	-webkit-animation-duration: 20s;
+	-webkit-animation-duration: 30s;
 	-webkit-animation-name: slide3;
 	-webkit-animation-iteration-count: infinite;
 	text-align: center !important;
